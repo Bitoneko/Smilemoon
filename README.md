@@ -1,36 +1,116 @@
 # Smilemoon
 
-A lightweight raster graphics editor for Android, built for drawing and image editing
+A lightweight raster graphics editor for Android, built for drawing, image editing, and creating raster artwork directly on a mobile device.
 
-## Key Features
+## Features
 
-* **Raster Graphics Editor:** Create and edit raster artwork directly on Android.
-* **Layer System:** Multi-layer editing with opacity and Clipping.
-* **Text Stamp:** Add and edit text with support for custom TTF/OTF fonts, font size, bold, italic, alignment, tracking, and line spacing.
-* **Text Rasterization:** Convert text into raster content for further editing and compositing.
-* **Drawing Tools:** Brush-based raster painting with configurable tool parameters.
-* **Color & Fill Tools:** Fast color filling and tolerance-based flood fill.
-* **Stamp Tool:** Clone and reproduce parts of the canvas for detailed editing.
-* **Crop Canvas:** Freely resize the canvas, including expanding it up to 4096×4096 pixels.
+Smilemoon provides a collection of raster drawing, selection, transformation, text, color, and layer tools designed for working directly with images on Android.
+
+### Drawing Tools
+
+- Brush
+- Eraser
+- Airbrush
+- Fill
+- Line
+- Rectangle
+- Circle / Oval
+- Arrow
+- Blur
+- Smudge
+- Gradient
+- Symmetry
+
+### Selection Tools
+
+- Lasso Select
+- Rect Select
+- Pan
+
+### Editing Tools
+
+- Image Stamp
+- Transform Layer
+- Crop Canvas
+- Vector Pen
+- Color Adjust
+
+### Text Tools
+
+- Text Stamp
+
+Text can be rasterized and converted into editable raster content, allowing it to be further modified and composited like other image elements.
+
+### Layer System
+
+Smilemoon supports multi-layer raster editing with:
+
+- Multiple layers
+- Layer opacity
+- Clipping
+- Layer transformations
+- Independent raster content
+
+The layer system allows different elements of an artwork to be edited separately without modifying the entire canvas.
+
+### Color Tools
+
+- Color Picker
+- Color presets
+- Recent colors
+- HSV color pad
+- HEX color input
+- Palette configuration
+- Fill tolerance
+- Color adjustment
+
+### Canvas
+
+The canvas system supports flexible image editing and resizing.
+
+- Crop Canvas
+- Canvas expansion
+- Canvas resizing up to 4096×4096 pixels
+- Raster-based editing
+- Symmetrical drawing
 
 ## Tech Stack
 
-* **Languages:** Kotlin & Java
-* **Platform:** Android
-* **Development Environment:** Sketchware Pro
+- **Languages:** Kotlin & Java
+- **Platform:** Android
 
-## Architecture Note
+## Development
 
-Smilemoon is built around a custom interactive canvas and raster editing architecture designed specifically for Android.
+Smilemoon is developed specifically for Android and focuses on providing a complete raster editing workflow on mobile devices.
 
-The project focuses on keeping the editor lightweight while providing features normally associated with more advanced desktop graphics applications.
+The project is built using Kotlin and Java and developed with Sketchware Pro.
+
+Development focuses on direct interaction with the canvas, responsive tools, and practical editing workflows for mobile devices.
 
 ## Project History
 
 Smilemoon was previously known as **Edita 2**.
 
-The project was renamed as part of a transition to a new identity and a fresh repository. Edita 2 represented an earlier stage of development, while Smilemoon is the continuation of the project with a significantly expanded feature set and architecture.
+Edita 2 represented an earlier stage of the project and established the original raster editing workflow.
 
-## APK
+The project was later renamed to **Smilemoon** and moved to a new repository as development expanded into a larger editing system with a new identity, layer architecture, additional tools, and an expanded feature set.
 
-The latest APK is available on the **Releases** page.
+## Project Status
+
+Smilemoon is the active continuation of the Edita 2 project.
+
+Development is ongoing, and features may continue to change as the editor evolves.
+
+## Requirements
+
+- Android
+- Storage or media access where required by the Android version
+- Sufficient available memory for larger canvases and multi-layer projects
+
+<p align="center">
+  <a href="https://github.com/Bitoneko/Smilemoon/releases">
+    <img src="https://img.shields.io/badge/Download_on_GitHub-808080?style=for-the-badge&logo=github&logoColor=white" alt="Download on GitHub">
+  </a>
+</p>
+
+### © 2026 Bitoneko.
