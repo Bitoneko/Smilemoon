@@ -2,6 +2,8 @@
 
 A lightweight raster graphics editor for Android, built for drawing, image editing, and creating raster artwork directly on a mobile device.
 
+<img width="800" height="900" alt="1000038624" src="https://github.com/user-attachments/assets/a4b8e005-e89e-4799-b214-49d7f1b92e17" />
+
 ## Features
 
 Smilemoon provides a collection of raster drawing, selection, transformation, text, color, and layer tools designed for working directly with images on Android.
