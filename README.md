@@ -85,10 +85,6 @@ The canvas system supports flexible image editing and resizing.
 
 Smilemoon is developed specifically for Android and focuses on providing a complete raster editing workflow on mobile devices.
 
-The project is built using Kotlin and Java and developed with Sketchware Pro.
-
-Development focuses on direct interaction with the canvas, responsive tools, and practical editing workflows for mobile devices.
-
 ## Project History
 
 Smilemoon was previously known as **Edita 2**.
